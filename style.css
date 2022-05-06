@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero_section{
+    background-image: url("photos/heroSectionBackground.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    padding: 16px 48px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_logo{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(60vh - 60px);
+    gap: 32px;
+}
+
+.logo-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.z-logo{
+    width: 300px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    gap: 10px;
+    border-radius: 10px;
+    flex-direction:row;
+}
+.input .icons i{
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.s-place,
+.s-dishes {
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.s-dishes {
+  width: 65%;
+}
+
+.s-place {
+  border-right: 2px solid #e0e0e0;
+  width: 35%;
+}
+
+.nav_logo .user__icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: solid 1px white;
+    display: none;
+}
+.item{
+    margin: 3rem auto;
+    width: 80%;
+}
+.we-provide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .3rem;
+}
+.we-provide .i{
+    border-radius: 10px;
+    overflow: visible;
+    border: .5px solid #e0e0e0;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.we-provide .i img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+@media only screen and (max-width:600px){
+    .nav{
+    padding: 16px 16px;
+    justify-content: space-between;
+    }
+    .nav_logo .nav-link{
+        display: none;
+    }
+    .nav_logo .user__icon{
+        display: flex
+    }
+    .z-logo{
+        width: 65%;
+    }
+}
