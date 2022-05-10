@@ -4,8 +4,11 @@
 // }
 // const arr = [1,2,3];
 // console.log(typeof "k");
-const arr={
-    name:"kaushal",
-    brand: "iphone 6s"
-}
-console.log(arr)
+// const arr={
+//     name:"kaushal",
+//     brand: "iphone 6s"
+// }
+// console.log(arr)
+// window.alert('hi')
+// console.log(window.localStorage)
+localStorage.setItem('Kaushal','Nanda')
