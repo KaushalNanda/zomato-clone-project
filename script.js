@@ -11,4 +11,14 @@
 // console.log(arr)
 // window.alert('hi')
 // console.log(window.localStorage)
-localStorage.setItem('Kaushal','Nanda')
+// localStorage.setItem('Kaushal','Nanda')
+const doSomething=function(){
+console. log ( 'something ')
+}
+setTimeout(doSomething, 0)
+console.log('a')
+console.log('b')
+console.log('c')
+for(let i=0;i<100;i++){
+    console.log('black')
+}
