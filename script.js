@@ -12,13 +12,18 @@
 // window.alert('hi')
 // console.log(window.localStorage)
 // localStorage.setItem('Kaushal','Nanda')
-const doSomething=function(){
-console. log ( 'something ')
-}
-setTimeout(doSomething, 0)
-console.log('a')
-console.log('b')
-console.log('c')
-for(let i=0;i<100;i++){
-    console.log('black')
-}
+// const doSomething=function(){
+// console. log ( 'something ')
+// }
+// setTimeout(doSomething, 0)
+// console.log('a')
+// console.log('b')
+// console.log('c')
+// for(let i=0;i<100;i++){
+//     console.log('black')
+// }
+// console.log(document)
+// const kav = document.getElementsByClassName('nav_logo')
+// console.log(kav)
+const body = document.querySelector('body')
+const user__icon=document.querySelector('user__icon')
