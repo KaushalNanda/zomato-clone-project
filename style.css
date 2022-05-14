@@ -80,7 +80,7 @@
 }
 
 .s-place {
-  border-right: 2px solid #e0e0e0;
+  border-right: 0.1rem solid gray;
   width: 35%;
 }
 
@@ -117,6 +117,11 @@
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
+}
+.l-img,
+.s-img,
+.drop{
+    width: 30px;
 }
 @media only screen and (max-width:600px){
     .nav{
