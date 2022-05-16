@@ -25,5 +25,20 @@
 // console.log(document)
 // const kav = document.getElementsByClassName('nav_logo')
 // console.log(kav)
-const body = document.querySelector('body')
-const user__icon=document.querySelector('user__icon')
+// const body = document.querySelector('body')
+// const user__icon=document.querySelector('user__icon')
+const arr =[1,2,3,4,5,6]
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i])
+}
+//arrow sintax
+function greet(){
+    console.log('hi')
+}
+const greetArrow=()=>{
+    console.log('hi')
+}
+greet()
+
+const sum = function  (a,b){
+return a+b}
