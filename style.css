@@ -77,13 +77,13 @@
 
 .s-dishes {
   width: 65%;
+  /* border-: 0.18rem solid gray; */
 }
 
 .s-place {
-  border-right: 0.1rem solid gray;
+  /* border-right: 0.18rem solid gray; */
   width: 35%;
 }
-
 .nav_logo .user__icon{
     height: 30px;
     width: 30px;
@@ -96,6 +96,11 @@
 }
 .item{
     margin: 3rem auto;
+    width: 85%;
+}
+.collection{
+    margin: 3rem auto;
+margin-left:5rem;
     width: 85%;
 }
 .we-provide{
@@ -121,9 +126,12 @@
 .l-img,
 .s-img,
 .drop{
-    width: 30px;
+    width: 25px;
 }
-@media only screen and (max-width:600px){
+.drop{
+    border-right: 0.19rem solid gray;
+}
+@media only screen and (max-width:838px){
     .nav{
     padding: 16px 16px;
     justify-content: space-between;
@@ -137,4 +145,7 @@
     .z-logo{
         width: 65%;
     }
+   .collection{
+       margin: 0;
+   }
 }
